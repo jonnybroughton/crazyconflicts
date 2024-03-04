@@ -1,0 +1,17 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*HEADER STYLES*/
+header{
+background-color: black;
+}
+/*MAIN CONTENT STYLES*/
+main{
+    background-color: darkgreen;
+}
+/*FOOTER STYLES*/
+footer{
+    background-color: grey;
+}
