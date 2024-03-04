@@ -15,8 +15,12 @@ body{
 /*HEADER STYLES*/
 header{
 background-color: lightgreen;
+position: fixed;
+width:100%;
+padding:0 1rem;
+z-index: 100;
 }
-h1{
+#logo{
     font-family:'Big Shoulders Stencil Text', sans-serif;
 }
 /*MAIN CONTENT STYLES*/
