@@ -72,3 +72,22 @@ main{
 footer{
     background-color: grey;
 }
+@media screen and (min-width:400px){
+    nav{
+        display:block;
+        position: relative;
+        width:fit-content;
+    }
+    #menu{
+        display:flex;
+    }
+    #menu > li{
+        padding-left:7px
+    }
+    .menu-toggle-label{
+        display:none;
+    }
+    main{
+        margin-top:55px;
+    }
+}
