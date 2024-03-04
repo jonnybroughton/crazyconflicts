@@ -10,11 +10,14 @@ body{
     display:flex;
     flex-direction: column;
     color:#ffffff;
-    font-family:'IBM Plex Sans';
+    font-family:'IBM Plex Sans', sans-serif;
 }
 /*HEADER STYLES*/
 header{
 background-color: lightgreen;
+}
+h1{
+    font-family:'Big Shoulders Stencil Text', sans-serif;
 }
 /*MAIN CONTENT STYLES*/
 main{
