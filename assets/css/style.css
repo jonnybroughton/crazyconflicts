@@ -3,13 +3,20 @@
     margin:0;
     box-sizing: border-box;
 }
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    color:#ffffff;
+}
 /*HEADER STYLES*/
 header{
-background-color: black;
+background-color: lightgreen;
 }
 /*MAIN CONTENT STYLES*/
 main{
     background-color: darkgreen;
+    flex:1 0 auto;
 }
 /*FOOTER STYLES*/
 footer{
